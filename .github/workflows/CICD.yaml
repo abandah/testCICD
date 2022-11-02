@@ -14,10 +14,11 @@ jobs:
       with:
         java-version: 11
         distribution: 'temurin'
+        cache: gradle
 
-    - name : install gradle
-#         run : sudo apt install gradle
-      run : gradle/gradle-build-action@v2
+#    - name : install gradle
+##         run : sudo apt install gradle
+#      run : gradle/gradle-build-action@v2
 
 
     - name: grant permission

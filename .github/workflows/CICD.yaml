@@ -27,6 +27,6 @@ jobs:
 
     - name: upload to github
       uses: actions/upload-artifact@v3
-        with:
-          name: app-debug
-          path: app/build/outputs/apk/debug/app-debug.apk
+      with:
+        name: app-debug
+        path: app/build/outputs/apk/debug/app-debug.apk

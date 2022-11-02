@@ -1,0 +1,5 @@
+name : TEST cicd
+
+on: #TRIGGERS
+  push:
+    branches: [ master ]
